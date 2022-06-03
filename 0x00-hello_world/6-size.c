@@ -13,9 +13,9 @@ int main(void)
 
 	int intType;
 
-	longint longintType;
+	long int longintType;
 
-	longlongint longlongintType;
+	long long int longlongintType;
 
 	float floatType;
 
@@ -25,9 +25,9 @@ int main(void)
 
 	printf(Size of int : % d bytes\n", sizeof (intType)) ;
 
-	printf(Size of longint : % d bytes\n", sizeof (longintType)) ;
+	printf(Size of long int : % d bytes\n", sizeof (longintType)) ;
 
-	printf(Size of longlongint : % d bytes\n", sizeof (longlongintType)) ;
+	printf(Size of long long int : % d bytes\n", sizeof (longlongintType)) ;
 
 	printf(Size of float : % d bytes\n", sizeof (floatType)) ;
 
