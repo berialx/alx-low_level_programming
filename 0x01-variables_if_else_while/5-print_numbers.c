@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	char letter;
+	int(num);
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(letter);
+		printf("%d", num);
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
