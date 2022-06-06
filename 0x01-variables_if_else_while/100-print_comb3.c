@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print combination of two digit numbers
+ * main - Print combination of two digit numbers
  *
  * Retrun: Always 0
  */
