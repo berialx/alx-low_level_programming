@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int ch;
+	print_alphabet ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 		_putchar(ch);
