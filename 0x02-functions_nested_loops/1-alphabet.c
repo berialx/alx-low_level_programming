@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "main.h"
 
 /**
  * print_alphabet - Prints lowercase alphabets
+ * for loop
  * Return: Always 0
  */
 
