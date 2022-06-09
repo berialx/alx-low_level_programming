@@ -1,1 +1,1 @@
-largest_number(int a, int b, int c);
+void largest_number(int a, int b, int c);
