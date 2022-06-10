@@ -2,8 +2,8 @@
 
 /**
  * mul - multiplies two digits
- * @int a: the first number
- * @int b: the second number
+ * @a: the first number
+ * @b: the second number
  *
  * Return: Result
  */
