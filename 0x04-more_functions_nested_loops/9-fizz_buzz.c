@@ -2,7 +2,7 @@
 
 /**
  * main - Prints the numbers from 1 to 100
- * And replace multiple of 1, 5, & both with fizz, buzz and fizzbuzz respectively
+ * And replace multiple of 3, 5, & both with fizz, buzz and fizzbuzz
  *
  * Return: 0
  */
