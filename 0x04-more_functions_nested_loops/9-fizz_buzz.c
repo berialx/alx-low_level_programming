@@ -25,7 +25,7 @@ int main(void)
 			printf("%d", n);
 		if (n == 100)
 			continue;
-		printf (" ");
+		printf(" ");
 	}
 
 	printf("\n");
