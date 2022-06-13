@@ -4,12 +4,17 @@
  * _strlen - returns the length of a string
  * @s: the string
  *
- * Return: 0
+ * Return: lenght of the string
  */
 
 int _strlen(char *s)
 {
-	_putchar("%d", _strlen(s));
+	int len = 0;
 
-	return (0);
+	while (*s)
+	{
+		len += 1;
+		s += 1;
+	}
+	return (len);
 }
