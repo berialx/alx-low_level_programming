@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * reverse_array - reverse content
+ * @a: array
+ * @n: number of elements
+ *
+ */
+
+void reverse_array(int *a, int n)
+{
+	int arr[n];
+	int temp;
+	int i;
+
+	for (int i = 0; i < (n / 2); i++)
+		temp = arr[i];
+		arr[i] = arr[n - i - 1];
+		arr[n - i - 1] = temp;
+}
