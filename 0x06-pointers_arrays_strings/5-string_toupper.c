@@ -10,15 +10,19 @@
 
 char *string_toupper(char *)
 {
-	char i;
+	int i;
 
-	char s1;
+	char s1[];
 
-	for (i = 0; s1[i] != '\0'; i++)
+	while (s1[i] != '\0')
 	{
-		if (s1[i] >= 97 && s1[i] <= 122)
+		if (s1[i] >= 'a' && s1[i] <= 'z')
 		{
 			s1[i] = s1[i] - 32;
 		}
+		
+		i++;
 	}
+
+	return (0);
 }
