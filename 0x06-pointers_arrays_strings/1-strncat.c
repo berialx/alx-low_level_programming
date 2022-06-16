@@ -7,7 +7,7 @@
  * @src: source string
  * @n: number of bytes to use from source
  *
- * Return: string
+ * Return: string dest pointed by a pointer
  */
 
 char *_strncat(char *dest, char *src, int n)
