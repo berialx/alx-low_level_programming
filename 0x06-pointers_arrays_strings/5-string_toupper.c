@@ -4,9 +4,9 @@
 
 /**
  * string_toupper - converts alphabet to uppercase
- * @s: string
+ * @str: string
  *
- * Return: Always 0
+ * Return: string
  */
 
 char *string_toupper(char *str)
