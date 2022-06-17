@@ -4,20 +4,22 @@
 
 /**
  * string_toupper - converts alphabet to uppercase
- * @s1: string
+ * @s: string
  *
+ * Return: Always 0
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
 	int i;
-	
-	char s[];
 
 	int length = strlen(s);
 
-	for (i = 0; i < length; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		s[i] = string_toupper(s[i]);
+		if (s[i] >= 'a' && s[i] <= 'z')
+		{
+			s[i] = s[i] - 32;
+		}
 	}
 }
