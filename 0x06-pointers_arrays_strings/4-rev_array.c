@@ -13,18 +13,12 @@ void reverse_array(int *a, int n)
 {
 	int temp;
 
-	int arr[n];
-
 	int i;
 
-	for (i = 0; i < n / 2; i++)
+	for (i = 0; n--; i <= (n / 2), i++)
 	{
-		temp = arr[i];
-		arr[i] = arr[n - i - 1];
-		arr[n - i - 1] = temp;
-	}
-	for (i = 0; i < n; i++)
-	{
-		_putchar(arr[i]);
+		temp = a[n - i];
+		a[n - i] = a[i];
+		a[i] = temp;
 	}
 }

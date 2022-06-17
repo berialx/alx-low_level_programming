@@ -11,18 +11,13 @@
 char *string_toupper(char *)
 {
 	int i;
+	
+	char s[];
 
-	char s1[];
+	int length = strlen(s);
 
-	while (s1[i] != '\0')
+	for (i = 0; i < length; i++)
 	{
-		if (s1[i] >= 'a' && s1[i] <= 'z')
-		{
-			s1[i] = s1[i] - 32;
-		}
-		
-		i++;
+		s[i] = string_toupper(s[i]);
 	}
-
-	return (0);
 }
