@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -15,11 +14,7 @@ int _strcmp(char *s1, char *s2)
 
 	for (i = 0; s1[i] == s2[i] && s1[i] == '\0'; i++)
 
-	if (s1[i] < s2[i])
-	{
-		return (s1[i] - s2[i]);
-	}
-	else if (s1[i] > s2[i])
+	if (s1[i] != s2[i])
 	{
 		return (s1[i] - s2[i]);
 	}
