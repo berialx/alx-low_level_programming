@@ -6,7 +6,7 @@
  * @s1: string 1
  * @s2: string 2
  *
- * Return: 0 if equal, positive 15 if s1 > s2, negative 15 if s1 < s2
+ * Return: 0 if equal, otherwise result of s1 - s2
  */
 
 int _strcmp(char *s1, char *s2)
