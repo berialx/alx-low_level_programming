@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * reverse_array - reverse content
@@ -21,5 +22,9 @@ void reverse_array(int *a, int n)
 		temp = arr[i];
 		arr[i] = arr[n - i - 1];
 		arr[n - i - 1] = temp;
+	}
+	for (int i = 0; i < n; i++)
+	{
+		_putchar(arr[i]);
 	}
 }
