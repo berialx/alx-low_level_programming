@@ -1,8 +1,10 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
 
 /**
  * create_array -  creates an array of chars
- * @n: the size 
+ * @size: the size
  * @c: the character
  *
  * Return: Null if size is 0 or error, pointer if successful
@@ -10,13 +12,13 @@
 
 char *create_array(unsigned int size, char c)
 {
-	int n;
+	char *str;
 
-	unsigned int *str;
+	unsigned int i;
 
-	str = (char *)malloc(n * sizeof(char));
+	str = (char *)malloc(size * sizeof(char));
 
-	if size == 0 || n = '0'
+	if (size == 0 || str == NULL)
 		return (NULL);
 	else
 		return (str);
