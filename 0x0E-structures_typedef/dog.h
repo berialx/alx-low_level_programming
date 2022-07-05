@@ -1,10 +1,12 @@
-void init_dog(struct dog *d, char *name, float age, char *owner);
+#ifndef _DOG_H_
+#define _DOG_H_
 
-void print_dog(struct dog *d);
-
-dog_t *new_dog(char *name, float age, char *owner);
-
-void free_dog(dog_t *d);
+/**
+ * struct dog - defines the different data types
+ * @name: name of the dogs
+ * @age: age of the dogs
+ * @owner: owner of the dogs
+ */
 
 struct dog
 {
