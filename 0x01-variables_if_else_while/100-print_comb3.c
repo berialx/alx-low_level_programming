@@ -1,30 +1,32 @@
 #include <stdio.h>
 
 /**
- * main - Print combination of two digit numbers
- *
- * Retrun: Always 0
+ *main -> assign a random number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	int tens;
-	int ones;
+int ch;
+int n;
+for (ch = 48; ch <= 57; ch++)
+{
+for (n = 49; n <= 57; n++)
+{
+if (n > ch)
+{
+putchar(ch);
+putchar(n);
+if (ch != 56 || n != 57)
+{
+putchar(44);
+putchar(32);
+}
+}
+}
+}
 
-	for (tens = 0; tens <= 9; tens++)
-	{
-		for (ones = tens + 1; ones <= 9; ones++)
-		{
-			putchar(tens + '0');
-			putchar(ones + '0');
+putchar(10); /* this is an ascii code for new line*/
 
-			if (tens < 8)
-			{
-				putchar(',');
-				putchar(' ');
-			}
-		}
-	}
-	putchar('\n');
-
-	return (0);
+return (0);
 }
