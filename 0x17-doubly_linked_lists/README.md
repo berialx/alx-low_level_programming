@@ -1,1 +1,1 @@
-This is the readme file for the C double linked lists project
+This is the readme file for the doubly linked lists project
